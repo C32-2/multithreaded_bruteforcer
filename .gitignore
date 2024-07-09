@@ -1,32 +1,91 @@
-# Prerequisites
-*.d
+# Игнорирование файлов и директорий Visual Studio
+.vscode/
+.vs/
+*.code-workspace
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# Visual Studio 2019/2022
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Папки отладки, выпуска и других сборок
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+[Bb]uild/
+
+# Файлы проекта Visual Studio
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.csproj
+
+# Ассемблерный листинг
+*.lst
+*.asm
+
+# Кэш сборки
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
 *.exe
-*.out
+*.pdb
+*.idb
+*.ilk
+*.log
+*.lib
+*.dll
 *.app
+*.dir
+*.sdf
+*.ipch
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.cachefile
+*.tlog
+
+# Папка IPCH и файлы Auto-Generated
+ipch/
+*.pch
+*.pdb
+
+# TFS
+$tf/
+
+# Ненужные файлы VS Code
+.vscode/
+
+# Ненужные файлы для сборки CMake
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+CTestTestfile.cmake
+cmake_install.cmake
+Makefile
+
+# Тестовые результаты
+TestResult.xml
+
+# Промежуточные файлы
+*.o
+*.a
+*.lo
+*.la
+*.al
+
+# Кэш других IDE и инструментов
+.idea/
+*.swp
+*~
+
+# MacOS Specific
+.DS_Store
+
+# Windows Thumbnail Cache
+Thumbs.db
+
+# Windows Explorer folder configuration files
+Desktop.ini
